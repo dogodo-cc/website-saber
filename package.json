@@ -1,0 +1,53 @@
+{
+  "name": "website-saber",
+  "version": "1.0.0",
+  "description": "website build tool",
+  "scripts": {
+    "dev": "NODE_ENV=development npx gulp",
+    "build": "NODE_ENV=production npx gulp"
+  },
+  "bin": {
+    "website-saber": "bin/index.js",
+    "website-saber-add": "bin/website-saber-add.js",
+    "website-saber-delete": "bin/website-saber-delete.js",
+    "website-saber-list": "bin/website-saber-list.js",
+    "website-saber-init": "bin/website-saber-init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dogodo-cc/website-saber.git"
+  },
+  "keywords": [
+    "saber"
+  ],
+  "author": "alan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dogodo-cc/website-saber/issues"
+  },
+  "homepage": "https://github.com/dogodo-cc/website-saber#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "autoprefixer": "^9.6.1",
+    "browser-sync": "^2.26.7",
+    "chalk": "^2.4.2",
+    "commander": "^3.0.1",
+    "download-git-repo": "^2.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-if": "^3.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-stylus": "^2.7.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-watch": "^5.0.1",
+    "inquirer": "^7.0.0",
+    "ncp": "^2.0.0",
+    "ora": "^3.4.0"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 2%",
+    "IE 10"
+  ]
+}
