@@ -4,7 +4,7 @@ const reload = browserSync.reload;
 function server(cb) {
   browserSync.init({
     server: {
-      baseDir: './',
+      baseDir: './dist/',
     },
     open: false,
     notify: false
