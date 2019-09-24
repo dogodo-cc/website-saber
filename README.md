@@ -41,6 +41,6 @@ cd hello && npm run dev
 
 ## TODO
 - [ ] 加入 image 的压缩处理
-- [ ] 加入 html 共用模块处理
+- [x] 加入 html 共用模块处理
 - [ ] 加入 typescript 的处理
 

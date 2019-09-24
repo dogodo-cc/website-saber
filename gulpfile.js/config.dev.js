@@ -8,10 +8,10 @@ const watch = require('gulp-watch');
 const { series } = require('gulp');
 
 function go(cb) {
-  watch(pathJs, {events: ['change'],ignoreInitial: false}, series(jsDev, serverReload));
-  watch(pathCss, {events: ['change'],ignoreInitial: false}, series(cssDev));
-  watch(pathHtmlWatch, {events: ['change'],ignoreInitial: false}, series(html, serverReload));
+  watch(pathJs, {events: ['change']}, series(jsDev, serverReload));
+  watch(pathCss, {events: ['change']}, series(cssDev));
+  watch(pathHtmlWatch, {events: ['change']}, series(html, serverReload));
   cb();
 }
 
-module.exports = [go, server];
+module.exports = [server, go];

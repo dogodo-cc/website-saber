@@ -8,9 +8,6 @@
   },
   "bin": {
     "website-saber": "bin/index.js",
-    "website-saber-add": "bin/website-saber-add.js",
-    "website-saber-delete": "bin/website-saber-delete.js",
-    "website-saber-list": "bin/website-saber-list.js",
     "website-saber-init": "bin/website-saber-init.js"
   },
   "repository": {
@@ -33,7 +30,7 @@
     "browser-sync": "^2.26.7",
     "chalk": "^2.4.2",
     "commander": "^3.0.1",
-    "download-git-repo": "^2.0.0",
+    "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "gulp-file-include": "^2.1.0",
     "gulp-if": "^3.0.0",
@@ -50,5 +47,8 @@
     "last 1 version",
     "> 2%",
     "IE 10"
-  ]
+  ],
+  "dependencies": {
+    "child-process-promise": "^2.2.1"
+  }
 }
