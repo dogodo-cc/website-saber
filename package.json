@@ -1,6 +1,6 @@
 {
   "name": "website-saber",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "website build tool",
   "scripts": {
     "dev": "NODE_ENV=development npx gulp",
