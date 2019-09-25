@@ -1,7 +1,7 @@
 # website-saber
 
 ## 关于
-基于 `gulp` 的自动化构建的 `CLI`。
+基于 `gulp` 自动化构建的 `CLI`。
 
 有些项目用不到如 `webpack` 这类功能超级丰富的打包工具，它只需要简单的处理下 js、css、images、即可。
 

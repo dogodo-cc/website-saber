@@ -32,6 +32,10 @@ if(program.args.length === 0) return program.help();
 
 const projectName = program.args[0];
 
+// 判断是否已经有同名文件夹
+const exists =fs.existsSync(resloveCwd(`./${projectName}`));
+if (exists) return console.log(chalk.white.bgRed(`=> 文件夹: ${projectName} 已经存在! `));
+
 inquirer.prompt([
   {
     type: 'input',
