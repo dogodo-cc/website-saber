@@ -66,7 +66,7 @@ inquirer.prompt([
     choices: ['npm','yarn']
   }
 ]).then(answer => {
-  const spinner = ora('正在创建...');
+  const spinner = ora('正在创建... （可能耗时比较长，请耐心等待）)');
   spinner.start();
 
   // 先创建项目目录: ${projeceName}

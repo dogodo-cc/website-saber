@@ -1,1 +1,2 @@
-body{color:#00f;text-align:center;border-radius:1px}nav{margin-bottom:100px}nav a.active{background-color:#00f;color:#fff}footer{position:fixed;background-color:#ccc;height:30px;bottom:0;left:0;right:0}h1{font-size:50px}
+*{margin:0;padding:0}body{color:#00f;text-align:center;display:flex;flex-direction:column;height:100vh;overflow:hidden}nav{height:60px;line-height:60px}nav a.active{background-color:#00f;color:#fff}.contain{flex:1}footer{background-color:#ccc;height:60px;line-height:60px;bottom:0;left:0;right:0}
+/*# sourceMappingURL=index.css.map */
